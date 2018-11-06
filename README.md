@@ -22,3 +22,14 @@ As I get more progress I'll add them here.
 #Useful Links
 ----
  - https://github.com/intel-iot-devkit/mraa/tree/master/examples/python
+
+#Troubleshooting
+----
+ If you see the message below, it means you should run the script with sudo. 
+
+
+    File "./led.py", line 29, in <module>
+        pin=mraa.Gpio(520)
+      File "/usr/lib/python3.5/dist-packages/mraa.py", line 836, in __init__
+        this = _mraa.new_Gpio(pin, owner, raw)
+
