@@ -13,19 +13,20 @@ I was not able to find any documentation on using the UP^2 Grove IoT Dev Kit <ht
   - Using the GrovePi+ all the pins start counting from 512, i.e. A0=512 D8=520. 
   - The GrovePi is a subplatform, you will have to initiate it with mraa.addSubplatform(mraa.GROVEPI, "0") 
 
-#Examples
+# Examples
 ---- 
   - led.py : Blinking an LED with python on D8 and the GrovePi+ wuth UP^2 
 
 As I get more progress I'll add them here. 
 
-#Useful Links
+# Useful Links
 ----
  - https://github.com/intel-iot-devkit/mraa/tree/master/examples/python
  - https://iotdk.intel.com/docs/master/mraa/grovepi.html
  - https://software.intel.com/en-us/iot/hardware/up-squared-grove-dev-kit
+ - https://software.intel.com/en-us/iot/hardware/up-squared-grove-dev-kit
 
-#Troubleshooting
+# Troubleshooting
 ----
  If you see the message below, it means you should run the script with sudo. 
 
