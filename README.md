@@ -25,7 +25,6 @@ As I get more progress I'll add them here.
  - https://github.com/intel-iot-devkit/mraa/tree/master/examples/python
  - https://iotdk.intel.com/docs/master/mraa/grovepi.html
  - https://software.intel.com/en-us/iot/hardware/up-squared-grove-dev-kit
- - https://software.intel.com/en-us/iot/hardware/up-squared-grove-dev-kit
 
 # Troubleshooting
 ----
