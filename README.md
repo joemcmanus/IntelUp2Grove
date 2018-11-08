@@ -16,6 +16,7 @@ I was not able to find any documentation on using the UP^2 Grove IoT Dev Kit <ht
 # Examples
 ---- 
   - led.py : Blinking an LED with python on D8 and the GrovePi+ wuth UP^2 
+  - temp.py : Read the Grove Temp & Humidity Sensor Mini (TH02) with GrovePi+ wuth UP^2
 
 As I get more progress I'll add them here. 
 

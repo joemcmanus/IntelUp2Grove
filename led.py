@@ -21,12 +21,19 @@
 
 import mraa
 import time
+import argparse 
+
+parser = argparse.ArgumentParser(description='UP^2 GrovePI Led Blinker')
+parser.add_argument('--delay', help="Set a delay, defaul 1",  action="store", type=int, default=1)
+parser.add_argument('pin', help="The pin the Grove LED socket is on, i.e. pin 1", type=int)
+
+args=parser.parse_args()
 
 #The UP^2 treats the shield as a sub platform over I2C 
 mraa.addSubplatform(mraa.GROVEPI, "0")
 
 #As a sub platform pins start numbering at 512, so D8 is 520
-pin=mraa.Gpio(520)
+pin=mraa.Gpio(args.pin + 512)
 
 #Set the direction to out (i.e. write)
 pin.dir(mraa.DIR_OUT)
@@ -35,6 +42,7 @@ pin.dir(mraa.DIR_OUT)
 pin.write(0)
 while True:
 	pin.write(1)
-	time.sleep(1)
+	time.sleep(args.delay)
+
 	pin.write(0)
-	time.sleep(1)
+	time.sleep(args.delay)
