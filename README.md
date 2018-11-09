@@ -2,7 +2,7 @@
 ----
 A repo to store example Python scripts for the Intel UP^2 IoT Dev board with the GrovePi+ shield. 
 
-I was not able to find any documentation on using the UP^2 Grove IoT Dev Kit <https://www.seeedstudio.com/UP-Grove-IoT-Development-Kit-p-2994.html> and Python. Currently the wiki is all references for RPi, which this device is not. Hopefully this will help others, I mean it can't hurt, right? 
+I was not able to find any documentation on using the UP^2 Grove IoT Dev Kit <https://www.seeedstudio.com/UP-Grove-IoT-Development-Kit-p-2994.html> and Python. Below are sample scripts for (most, soon to be all) sensors in the kit. Thanks for looking and let me know if you need any help 
 
 ![alt_tag](https://pbs.twimg.com/media/DrRYbAjU4AAmp2X.jpg)
 
@@ -27,6 +27,7 @@ As I get more progress I'll add them here.
  - https://github.com/intel-iot-devkit/mraa/tree/master/examples/python
  - https://iotdk.intel.com/docs/master/mraa/grovepi.html
  - https://software.intel.com/en-us/iot/hardware/up-squared-grove-dev-kit
+ - https://forum.dexterindustries.com/c/grovepi
 
 # Troubleshooting
 ----
