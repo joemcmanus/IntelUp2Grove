@@ -19,8 +19,9 @@ I was not able to find any documentation on using the UP^2 Grove IoT Dev Kit <ht
   - [temp.py](temp.py) : Read the Grove Temp & Humidity Sensor Mini (TH02) with GrovePi+ wuth UP^2
   - [light.py](light.py) : Read the value of the Grove Light Sensor v1.2 with the UP^2 
   - [lcd.py](lcd.py) : Display data and change color on GrovePi+ UP^2 with python 
+  - [button.py](button.py) : Read the Grove-Button on GrovePi+ UP^2 with python 
 
-As I get more progress I'll add them here. 
+As I make more progress I'll add them here. 
 
 # Useful Links
 ----
