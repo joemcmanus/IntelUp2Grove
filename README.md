@@ -10,6 +10,7 @@ I was not able to find any documentation on using the UP^2 Grove IoT Dev Kit <ht
 # Notes
 ---- 
   - Install python3-mraa 
+  - Install python3-upm 
   - Using the GrovePi+ all the pins start counting from 512, i.e. A0=512 D8=520. 
   - The GrovePi is a subplatform, you will have to initiate it with mraa.addSubplatform(mraa.GROVEPI, "0") 
 
@@ -21,7 +22,26 @@ I was not able to find any documentation on using the UP^2 Grove IoT Dev Kit <ht
   - [lcd.py](lcd.py) : Display data and change color on GrovePi+ UP^2 with python 
   - [button.py](button.py) : Read the Grove-Button on GrovePi+ UP^2 with python 
 
-As I make more progress I'll add them here. 
+  - [groveup.py](groveup.py) : A python module for the GrovePi+ and Intel UP^2 . 
+  - [modExample.py](modExample.py) : Example for using the module
+
+
+#Module Info
+----
+First thing import groveup . 
+
+    from groveup import * 
+
+
+Example script usage: 
+
+    #Print to the LCD 
+    joe@squared:~$ sudo ./modExample.py --lcd --lcdOne=Hello --lcdTwo=World --lcdColor=green 
+      
+    #Read the temperature sensor
+    joe@squared:~$ sudo ./modExample.py --temp
+    Temperature: 67°F Humidity: 49%
+
 
 # Useful Links
 ----

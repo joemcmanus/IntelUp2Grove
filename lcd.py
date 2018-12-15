@@ -45,7 +45,7 @@ if args.color == "green":
 lcd.write("                ");
 lcd.write("                ");
 
-#move to first line `
+#move to first line 
 lcd.setCursor(0,0)
 lcd.write(args.lineOne)
 
